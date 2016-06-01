@@ -1,1 +1,52 @@
+.button {
+  display: inline-block;
+  background-color: #9D01D6;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 30px;
+  color: yellow;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+.button:hover {
+	background-color: purple;
+	color: white;
+	font-size: 20px;
+	border-style: inset;
+	 border: 3px solid black;;
+}
+
+.button.button-sm {
+	display: inline-block;
+	font-size: 10px;
+	margin-bottom:2em;
+}
+
+.button.button-sm:hover {
+	font-size: 20px;
+}
+
+.button.button-md {
+	display: inline-block;
+	font-size: 20px;
+		margin-bottom:2em;
+}
+
+.button.button-md:hover {
+	font-size: 40px;
+}
+
+.button.button-lg {
+	display: inline-block;
+	font-size: 40px;
+		margin-bottom:2em;
+}
+
+.button.button-lg:hover {
+	font-size: 80px;
+}
