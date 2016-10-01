@@ -1,0 +1,1 @@
+##Tabs non-js-component
