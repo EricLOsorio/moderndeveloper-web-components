@@ -16,6 +16,7 @@
 .button:hover {
 	background-color: purple;
 	color: white;
+	cursor:pointer;
 	/*font-size: 20px;
 	border-style: inset;
 	 border: 3px solid black;*/
