@@ -27,9 +27,7 @@
 	margin-bottom:2em;
 }
 
-.button.button-sm:hover {
-	font-size: 20px;
-}
+
 
 .button.button-md {
 	display: inline-block;
@@ -37,9 +35,6 @@
 		margin-bottom:2em;
 }
 
-.button.button-md:hover {
-	font-size: 40px;
-}
 
 .button.button-lg {
 	display: inline-block;
@@ -47,6 +42,4 @@
 		margin-bottom:2em;
 }
 
-.button.button-lg:hover {
-	font-size: 80px;
-}
+
