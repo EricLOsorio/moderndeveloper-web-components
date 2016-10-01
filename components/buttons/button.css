@@ -16,9 +16,9 @@
 .button:hover {
 	background-color: purple;
 	color: white;
-	font-size: 20px;
+	/*font-size: 20px;
 	border-style: inset;
-	 border: 3px solid black;;
+	 border: 3px solid black;*/
 }
 
 .button.button-sm {
