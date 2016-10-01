@@ -1,1 +1,86 @@
 
+.container{
+  position:absolute;
+  width:70%;
+  height:100%;
+
+
+}
+
+div.container input{
+  display:none;
+}
+
+
+div.container label img {
+  width:150px;
+  height:100px;
+  border: 5px solid #2F2F2F;
+  margin-right:-5px;
+}
+
+.large{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  z-index:-1;   
+}
+
+.large img{
+
+ position:relative;
+ opacity:0;
+ max-width:100%;
+
+}
+
+#image1:checked ~ .large #one{
+ display:block;
+ opacity:1;
+ transition: opacity 2s ease;
+ -webkit-transition: opacity 2s ease; 
+ -moz-transition: opacity 2s ease;
+ -ms-transition: opacity 2s ease;
+ -o-transition: opacity 2s ease;
+}
+
+#image2:checked ~ .large #two{
+ display:block;
+ opacity:1;
+ transition: opacity 2s ease;
+ -webkit-transition: opacity 2s ease; 
+ -moz-transition: opacity 2s ease;
+ -ms-transition: opacity 2s ease;
+ -o-transition: opacity 2s ease;
+}
+
+#image3:checked ~ .large #three{
+ display:block;
+ opacity:1;
+ transition: opacity 2s ease;
+ -webkit-transition: opacity 2s ease; 
+ -moz-transition: opacity 2s ease;
+ -ms-transition: opacity 2s ease;
+ -o-transition: opacity 2s ease;
+}
+
+#image4:checked ~ .large #four{
+ display:block;
+ opacity:1;
+ transition: opacity 2s ease;
+ -webkit-transition: opacity 2s ease; 
+ -moz-transition: opacity 2s ease;
+ -ms-transition: opacity 2s ease;
+ -o-transition: opacity 2s ease;  
+}
+
+#image5:checked ~ .large #five{
+ display:block;
+ opacity:1;
+ transition: opacity 2s ease;
+ -webkit-transition: opacity 2s ease; 
+ -moz-transition: opacity 2s ease;
+ -ms-transition: opacity 2s ease;
+ -o-transition: opacity 2s ease;
+}
