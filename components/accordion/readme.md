@@ -1,0 +1,1 @@
+##Accordion non-js-component
