@@ -1,3 +1,7 @@
+body{
+  background-color:white;
+}
+
 .button {
   display: inline-block;
   background-color: #9D01D6;
@@ -16,10 +20,8 @@
 .button:hover {
 	background-color: purple;
 	color: white;
-	cursor:pointer;
-	/*font-size: 5%;*/
 	border-style: inset;
-	 border: 3px solid black;
+	 border: 3px solid black;;
 }
 
 .button.button-sm {
@@ -28,7 +30,9 @@
 	margin-bottom:2em;
 }
 
-
+.button.button-sm:hover {
+	font-size: 20px;
+}
 
 .button.button-md {
 	display: inline-block;
@@ -36,6 +40,9 @@
 		margin-bottom:2em;
 }
 
+.button.button-md:hover {
+	font-size: 40px;
+}
 
 .button.button-lg {
 	display: inline-block;
@@ -43,4 +50,63 @@
 		margin-bottom:2em;
 }
 
+.button.button-lg:hover {
+	font-size: 80px;
+}
 
+@media (max-device-width:1024px){
+
+  body{
+    background-color:blue;
+  }
+
+}
+
+@media (max-device-width:600px){
+
+  body{
+    background-color:black;
+  }
+
+}
+
+@media (max-device-width:360px){
+  body{
+    background-color:#696969;
+  }
+}
+
+@media (max-width:360px) and (min-height:200px),
+	   (max-width:600px) and (min-height:200px),
+	   (max-width:1024px) and (min-height:200px){
+
+  body{
+    color:white;
+  }
+
+  h3{
+  	font-size:3em;
+  }
+
+  .button{
+  	font-size:4em;
+  }
+
+  .button:hover{
+  	background-color:black;
+  	color:white;
+  }
+
+  .button.button-sm{
+  	font-size:3em;
+  }
+
+  .button.button-md{
+  	font-size:4em;
+  }
+
+  .button.button-lg{
+  	font-size:4.5em;
+  }
+  
+}
