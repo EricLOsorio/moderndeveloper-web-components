@@ -1,9 +1,11 @@
+body{
+  background-color:white;
+}
 
 .container{
   position:absolute;
   width:70%;
   height:100%;
-
 
 }
 
@@ -84,3 +86,42 @@ div.container label img {
  -ms-transition: opacity 2s ease;
  -o-transition: opacity 2s ease;
 }
+
+@media (max-device-width:1024px){
+  body{
+    background-color: blue;
+  }
+}
+
+@media (max-device-width:600px){
+  body{
+    background-color: red;
+  }
+}
+
+@media (max-device-width:360px){
+  body{
+    background-color: green;
+  }
+}
+
+@media (max-device-width:360px) and (min-device-height:200px),
+       (max-device-width:600px) and (min-device-height:200px),
+       (max-device-width:1024px) and (min-device-height:200px){
+
+  .container{
+    width:100%;
+  }
+
+  div.container label img {
+    width:180px;
+    height:110px;
+  }
+
+  .large img{
+
+    height:45em;
+
+  }
+}
+
