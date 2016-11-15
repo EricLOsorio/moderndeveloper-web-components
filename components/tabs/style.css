@@ -60,3 +60,39 @@
 
 }
 
+@media (max-device-width:1024px){
+  .menu{
+    background-color:yellow;
+  }
+}
+
+@media (max-device-width:600px){
+  .menu{
+    background-color:green;
+  }
+}
+
+@media (max-device-width:360px){
+  .menu{
+    background-color:purple;
+  }
+}
+
+@media (max-device-width:360px) and (min-device-height:200px),
+       (max-device-width:600px) and (min-device-height:200px),
+       (max-device-width:1024px) and (min-device-height:200px){
+  .menu > li{
+    font-size:3em;
+  }
+
+
+  .submenu li{
+    font-size:1em;
+    width:6em;
+  }
+
+    .menu .submenu .submenu {
+    left:6em;
+  }
+
+}
